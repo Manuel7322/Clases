@@ -1,0 +1,115 @@
+Crear un algoritmo en pseudoCódigo que pida por tecladp e imprima si es mayor o igual a 10: 
+Algoritmo mayorOigual
+
+Escribir "Ingresa un numero";
+Leer num
+si(num > 10) Entonces
+ Escribir "Es mayor a 10";
+SiNo
+ si (num == 10)Entonces
+  Escribir "Es Igual a 10";
+ SiNo
+  Escribir "Es menor a 10"
+ Fin si
+Fin si
+
+2.- Crea un algoritmo en pseudoCódigo que solicite la velocidad de un auto y determine si excedió 
+La velocidad máxima permitida (50Km):
+
+Velocidad=Escribir "Ingrese la velocidad"
+Si (velocidad<50) entonces
+   Escribir "La velocidad esta permitida"
+Si No 
+   Escribir "la velocidad no es permitida"
+Fin si
+
+3.- Crea un algoritmo en PseudoCódigo que calcule la potencia de 2 números que deben ser ingresados por teclado:
+
+Num1=Escribir "Ingrese el primer valor"
+Pot1=Escribir "Ingrese el valor de elevacion para el primer numero"
+Num2=Escribir "Ingrese el segundo valor"
+Pot2=Escribir "Ingrese el valor de elevacion para el segundo numero"
+Potencia1=Num1**Pot1
+Potencia2=Num2**Pot2
+El valor de la primera potencia es:
+imprime por pantalla (Potencia1)
+El valor de la segunda potencia es:
+imprime por pantalla (Potencia2)
+
+4.- El agua se congela a los cero grados. Solicitar se ingrese la temperatura actual y determine si el agua se congelará o no:
+
+Temp=Escribir "Ingrese temperatura actual del agua"
+Si (Temp<0) entonces 
+   Mostrar "El agua esta congelada"
+Si No
+   Mostrar "El agua no esta congelada"
+Fin si
+
+5.- Pedro tiene 21 años. Solicite por teclado la edad de una persona y determine si es igual a la edad de Pedro
+
+EdadP=21
+Edad=Mostrar"Ingrese su edad"
+Si (EdadP==Edad)
+   Mostrar "tienes la misma edad que Pedro"
+Si No
+   Mostrar "No tienes la misma edad que Pedro"
+Fin si
+
+6.- Realice un algoritmo que ingrese el diámetro de un círculo y la longitud de un lado de un cuadrado y diga por pantalla
+Si el círculo puede ser contenido dentro del cuadrado de manera íntegra:
+
+Mostrar "Ingresar diametro de un circulo "
+Variable=Diametro
+Mostrar"ingresar longitud de el lado de un cuadrado"
+Variable=Longitud
+Si (Diametro <= Longitud)
+   Mostrar"Puede ser contenido"
+Si No 
+   Mostrar"No pude ser contenido"
+Fin si
+
+7.- Realice un algoritmo en pseudocódigo que dada las 3 notas parciales de un estudiante (ingresar por teclado), calcule su promedio e indique si el estudiante aprobó la asignatura (promedio debe ser mayor o igual a 4):
+
+Mostrar "ïngrese primera nota"
+variable=nota1
+Mostrar "ingrese segunda nota"
+variable=nota2
+Mostrar "ingrese tercer nota"
+variable=nota3
+Promedio=nota1+nota2+nota3/3
+Si (Promedio>=4)
+     Mostrar "Aprobado"
+Si No 
+     Mostrar "Reprobado"
+Fin si
+
+8.- Realice un algoritmo en pseudocódigo que calcule lo siguiente: Tu salario mensual es de $1,000,000. Se pide ingresar por teclado el monto total mensual gastado en alimento, vestuario y entretención y determinar si tus gastos fueron menor a tu ingreso mensual:
+
+Sueldo=1000000
+Mostrar "Ingrese gastos en alimento"
+Variable=GastosA
+Mostrar "Ingrese gastos en vestuario"
+Variable=GastosV
+Mostrar "Ingrese gastos en entretencion"
+Variable=GastosE
+Gastos=GastosA+GastosV+GastosE
+Si (Gastos<1000000)
+     Mostrar "Tus gastos fueron menor a tu ingreso mensual"
+Si No 
+    Mostrar "Tus gastos Fueron Mayor a tu ingreso mensual"
+Fin si
+
+9.- Realice un algoritmo en pseudocódigo que permita ingresar el monto total Neto de facturación mensual y determine el valor del IVA de ese monto
+(El % del IVA debe ser ingresado por teclado)
+Total Neto corresponde a un valor sin IVA incluido
+
+
+
+10.- Una persona cualquiera, gasta 10 calorías por cada KM que recorre. Realice un algoritmo en pseudocódigo que permita ingresar los Kms recorridos y muestre las calorías totales gastadas
+
+CaloriasPorKM=10
+Mostrar "Ingrese kilometros recorridos"
+Variable=KM
+Calorias=CaloriasPorKM*KM
+Mostrar "Las calorias usted quemo fueron:"
+Imprime por pantalla (calorias)
